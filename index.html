@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        width: 150px;
+        height: 150px;
+        z-index: -1;
+        position: relative;
+      }
+      .main {
+        border: 2px solid red;
+        width: 460px;
+      }
+      .mas {
+        position: absolute;
+        top: 60px;
+        background-color: hotpink;
+        left: 60px;
+        z-index: 1;
+        opacity:0.6;
+      }
+      .con{
+        width:100px;
+        height: 300px;
+        border: 1px solid black;
+        overflow-y: scroll;
+      }
+      .para{
+        position: relative;
+        background-color: red;
+        z-index: 1;
+        opacity: 0.7;
+      }
+      .sticky{
+        background-color: aqua;
+         top:30px;
+        position: sticky;
+        z-index: 2;
+      }
+      .name{
+        position: absolute;
+        background-color: aqua;
+        opacity: 0.5;
+      }
+      .for{
+        display: inline;
+        position: absolute;
+        bottom: 420px;
+        padding:10px;
+        background-color: aqua;
+        opacity: 0.7;
+      }
+      .video{
+        position: absolute;
+      }
+      .vid{
+        position: absolute;
+        top:150px;
+        left:100px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="main">
+        <h1 class="name">M.S.DHONI &hearts;</h1>
+      <h2 class="mas">master mind & captain cool !</h2>
+      <img src="./iframe/dhoni1.jpg" />
+      <img src="./iframe/dhoni2.jpg" />
+      <img src="./iframe/dhoni3.jpg" /><br />
+      <h2 class="for">the man</h2>
+      <img src="./iframe/dhoni4.jpg" />
+      <h2 class="for">the myth</h2>
+      <img src="./iframe/dhoni5.jpg" />
+      <h2 class="for">the mahi !</h2>
+      <img src="./iframe/dhoni6.jpg" />
+    </div>
+    <br>
+    <div class="con">
+        <h3 class="para">paragraph</h3>
+        <h3 class="sticky">sticky</h3>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+      impedit alias debitis cupiditate temporibus provident repellat
+      consequuntur dignissimos qui minima atque, nesciunt animi rem ipsa
+      similique ratione ut, tenetur nobis?Lorem ipsum dolor sit, amet
+      consectetur adipisicing elit. Unde animi mollitia ducimus iure rerum
+      dignissimos reiciendis esse culpa aliquid quod cumque enim dolorum
+      voluptatem dolore eveniet doloribus, tenetur cum similique?
+    </div>
+   <div class="video">
+    <h3 class="vid">champions on the pitch,conquerors of the match <b style="font-size: 30px;">&#127951; &#127939;</b></h3>
+    <video width="600px" height="600px" controls muted autoplay loop>
+        <source src="./position/video.mp4" >
+    </video>
+   </div>
+  </body>
+</html>
